@@ -1,0 +1,102 @@
+body {
+  font: normal 12px helvetica, arial, serif;
+  background: #fff;
+}
+ol, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ol {
+  float: left;
+  margin: 0 10px;
+}
+li {
+
+  margin: 8px 0;
+  display: block;
+  padding: 5px 0px;
+  width: 80px;
+  color: #6f6f6f;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 1px #eee;
+
+}
+li:hover{
+  background: #eee;
+
+
+  cursor: pointer;
+  border-color: #aaa;
+}
+
+#wrapper {
+
+  overflow: hidden;
+  width: 310px;
+}
+h3 {
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  color: #333;
+  margin-bottom: 5px;
+}
+li.selected {
+  border-color: green;
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+li.zero {
+  border: 1px solid #880000;
+  color: #880000;
+}
+
+#remove {
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  right: 5px;
+  color: #cc0000;
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+  color: #999;
+  padding: 10px 0;
+  opacity: .5;
+}
+body:hover footer {
+  opacity: .8;
+}
+
+body footer:hover {
+  opacity: 1;
+}
+footer a {
+  outline: none;
+  color: #455573;
+}
+
+footer form {
+  display: inline;
+  vertical-align: middle;
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
+footer form * {
+  outline: none;
+}
+footer form input {
+  height: 16px;
+}

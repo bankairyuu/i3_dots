@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/js.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+   "description": "Auto-refresh (reload) pages, if they are idle, on a selected interval.",
+   "icons": {
+      "128": "icons/128x128.png",
+      "48": "icons/48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+o+AQMk9hLxrMEY7/Dbevy7JxErU8lUSV0gEj9DzRCozX/rnQIEFNCIFE1D+pZwCK5YPI48VR20NoxvMZOmp29378oFAYlwc/y1wg00RMJoYg1g0mMiYczHetl0+azDEpmrGY3K4NsTQMf/TQ6H20sLBEPVvCbPkOORmz+AnY9QIDAQAB",
+   "manifest_version": 2,
+   "name": "Page Refresh",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "icons/19x19.png",
+      "default_popup": "popup.html",
+      "default_title": "Page refreshes every min"
+   },
+   "permissions": [ "tabs", "cookies", "http://*/", "https://*/", "webRequest", "webRequestBlocking", "webNavigation", "storage", "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2.9"
+}

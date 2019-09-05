@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #E2E4E6;
+  min-height: 250px;
+  color: #4d4d4d;
+  font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif;
+  line-height: 18px;
+}
+
+body#page-popup {
+  width: 400px;
+}
+
+body#page-login {
+  font: 18px "Helvetica Neue",Arial,Helvetica,sans-serif;
+  line-height: 26px;
+  background: #fff;
+}
+
+#header {
+  padding: 0.5em;
+  background-color: #0079bf;
+  line-height: 1;
+}
+
+.container {
+  clear: both;
+  padding: 1em;
+}
+
+#create-card-fields {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  padding: 1em;
+}
+
+#create-card-text, #create-card-description {
+  background-color: #fff;
+  border: 0;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+  resize: none;
+  min-height: 1em;
+}
+
+#create-card-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+#confirm-add-card {
+  margin:0;
+}
+
+#attach-current-tab-container {
+  flex-grow: 1;
+  padding-right: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container .u-right {
+  margin-left: auto;
+}
+
+.select-option {
+  flex: 1;
+  width: 50%;
+}
+
+#selector-container {
+  margin-bottom: 0.5em;
+}
+
+#selector-container > :first-child {
+  padding-right: 0.25em;
+}
+#selector-container > :last-child {
+  padding-left: 0.25em;
+}
+
+.select2-container .select2-choice {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-image: none;
+    background: #D6DADC;
+    border: 0;
+}
+
+/* Created cards */
+#created-cards {
+  list-style: none;
+  padding: 0 0.5em;
+  margin: 0;
+}
+
+#created-cards li {
+  padding-bottom: 1em;
+}
+
+#created-cards li a {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 2px 4px;
+  color: #4d4d4d;
+}
+
+#created-cards li a:hover {
+  background: #B6BBBF;
+}
+
+/* More prominent disabled state for add card */
+.mod-primary:disabled {
+  background: #838C91;
+  box-shadow: none;
+  cursor: default;
+  font-weight: 300;
+}
+
+/**
+ * Select container
+ */
+
+.select2-container {
+  border-radius: 4px;
+  border: 1px solid #D6DADC;
+  border-bottom-color: #B6BBBF;
+  background: linear-gradient(to bottom, #EDEFF0 0%, #D6DADC 100%);
+}
+
+.select2-container .select2-choice,
+.select2-container .select2-choice .select2-arrow {
+    -webkit-border-radius: 0;
+    border: 0;
+    background-image: none;
+    background: none;
+    font-weight: bold;
+}
+
+.select2-container .select2-choice:hover,
+.select2-container .select2-choice .select2-arrow:hover {
+  background: #B6BBBF;
+}
+
+.select2-container .select2-choice .select2-arrow b>span { margin: 4px 0 0 6px }
+.select2-container.select2-container-active .select2-choice { border-color: #91acce }
+.select2-container.select2-dropdown-open .select2-choice { border-bottom-color: #ccc }
+.select2-drop {
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+.select2-drop:not(.select2-drop-above) { margin-top: -3px }
+.select2-drop .select2-results {
+  padding: 0;
+  max-height: 120px;
+}
+.select2-drop .select2-results li {
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+.select2-chosen {
+
+}
+.select2-search { margin: 0 }
+select2-search input,
+.select2-search input:focus {
+    margin-bottom: 0.5em;
+}
+.select2-highlighted {
+  background: #0079BF;
+}
+.select2-drop-active {
+  border-color: #F8F9F9;
+}
+.select2-container.form-control {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.select2-container-active .select2-choice {
+  background: #B6BBBF;
+}

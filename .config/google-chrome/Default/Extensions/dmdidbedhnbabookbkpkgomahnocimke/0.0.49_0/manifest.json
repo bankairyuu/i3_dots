@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/icon-128.png",
+         "16": "images/icon-16.png",
+         "48": "images/icon-48.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Trello"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "Quickly create Trello cards and access your Trello boards from the Omnibox.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg0bjEVkSltYoWBLECvQnLQ0+1N6qLc7gvSXb2/FrJt/aVBU4KaQeOX6imHsQONuOn8t/CRpiz/coghUNo637mrrjpc6uyq+UC0QRjSmS/YReGBPkuh6hzRDIxXRffhtRF+HcOOvL/Z6PLWND24fXUYJhOIuCfgmETOtLmPO5mpfVr44VmEqcslnrOb26ODpfMCPzURLbzWhMx1avX978ngeHfh2jSkbksqj0ye7DkSxUHBvh1Ik9fH91fqOhYholU6UfnTcTkIwYWgcThGGFpNBJ6QbJn0D+7g8uMI8Lue9Ld9PXrEGdE9j9BMl07/+2HmifKuZHCROlF1aMvxvvJQIDAQAB",
+   "manifest_version": 2,
+   "name": "Trello",
+   "omnibox": {
+      "keyword": "t"
+   },
+   "permissions": [ "tabs", "storage", "https://trello.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.49",
+   "web_accessible_resources": [ "login.html" ]
+}

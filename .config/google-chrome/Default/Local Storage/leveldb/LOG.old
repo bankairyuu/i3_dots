@@ -1,0 +1,45 @@
+2019/09/02-08:53:05.164 57f Reusing MANIFEST leveldb/MANIFEST-000001
+2019/09/02-08:53:05.174 57f Recovering log #61
+2019/09/02-08:53:05.219 57f Reusing old log leveldb/000061.log 
+2019/09/02-09:00:16.460 e54 Level-0 table #65: started
+2019/09/02-09:00:16.468 e54 Level-0 table #65: 34370 bytes OK
+2019/09/02-09:00:16.472 e54 Delete type=0 #61
+2019/09/02-09:42:05.600 32ad Level-0 table #67: started
+2019/09/02-09:42:05.607 32ad Level-0 table #67: 26733 bytes OK
+2019/09/02-09:42:05.611 32ad Delete type=0 #64
+2019/09/02-09:42:05.611 3348 Compacting 4@0 + 1@1 files
+2019/09/02-09:42:05.623 3348 Generated table #68@0: 331 keys, 128758 bytes
+2019/09/02-09:42:05.623 3348 Compacted 4@0 + 1@1 files => 128758 bytes
+2019/09/02-09:42:05.627 3348 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/09/02-09:42:05.627 3348 Delete type=2 #58
+2019/09/02-09:42:05.627 3348 Delete type=2 #65
+2019/09/02-09:42:05.627 3348 Delete type=2 #62
+2019/09/02-09:42:05.627 3348 Delete type=2 #67
+2019/09/02-09:42:05.627 3348 Delete type=2 #60
+2019/09/02-10:00:05.600 3e03 Level-0 table #70: started
+2019/09/02-10:00:05.606 3e03 Level-0 table #70: 18213 bytes OK
+2019/09/02-10:00:05.610 3e03 Delete type=0 #66
+2019/09/02-10:09:05.599 4d88 Level-0 table #72: started
+2019/09/02-10:09:05.604 4d88 Level-0 table #72: 21302 bytes OK
+2019/09/02-10:09:05.609 4d88 Delete type=0 #69
+2019/09/02-10:13:28.823 4c96 Level-0 table #74: started
+2019/09/02-10:13:28.832 4c96 Level-0 table #74: 86249 bytes OK
+2019/09/02-10:13:28.835 4c96 Delete type=0 #71
+2019/09/02-10:41:16.997 4af Level-0 table #76: started
+2019/09/02-10:41:17.003 4af Level-0 table #76: 14595 bytes OK
+2019/09/02-10:41:17.006 4af Delete type=0 #73
+2019/09/02-10:41:17.006 775d Compacting 4@0 + 1@1 files
+2019/09/02-10:41:17.019 775d Generated table #77@0: 426 keys, 209442 bytes
+2019/09/02-10:41:17.019 775d Compacted 4@0 + 1@1 files => 209442 bytes
+2019/09/02-10:41:17.023 775d compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/09/02-10:41:17.024 775d Delete type=2 #70
+2019/09/02-10:41:17.024 775d Delete type=2 #76
+2019/09/02-10:41:17.024 775d Delete type=2 #72
+2019/09/02-10:41:17.024 775d Delete type=2 #74
+2019/09/02-10:41:17.024 775d Delete type=2 #68
+2019/09/02-11:34:11.317 3f39 Level-0 table #79: started
+2019/09/02-11:34:11.322 3f39 Level-0 table #79: 14644 bytes OK
+2019/09/02-11:34:11.325 3f39 Delete type=0 #75
+2019/09/02-15:10:23.903 7dc8 Level-0 table #81: started
+2019/09/02-15:10:23.916 7dc8 Level-0 table #81: 13444 bytes OK
+2019/09/02-15:10:23.925 7dc8 Delete type=0 #78

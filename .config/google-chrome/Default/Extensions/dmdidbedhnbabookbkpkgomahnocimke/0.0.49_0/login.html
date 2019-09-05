@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/app-vendor.css">
+    <link rel="stylesheet" href="styles/app.css">
+  </head>
+  <body id="page-login">
+    <div id="header">
+      <img src="/images/trello-logo-white.svg" height="24"> </a>
+    </div>
+
+    <div class="layout-centered">
+      <div id="login" class="u-hidden logged-out-content layout-centered-content">
+        <h1>Almost there!</h1>
+
+        <p>
+          <a href="#" id="connect-link" class='button mod-primary mod-no-margin'>Setup Trello account</a>
+        </p>
+
+        <p>Click the big green button to link your Trello account.</p>
+      </div>
+
+      <div class="u-hidden logged-in-content layout-centered-content">
+        <h1>You're all set!</h1>
+
+        <ul class="list-unstyled">
+          <li><strong>Add cards</strong> Click the Trello icon in the toolbar.</li>
+          <li><strong>Open boards quickly</strong> Select the address bar using <code>&#8984; + L</code> on OS X or <code>CRTL + L</code> on Windows and then press <code>t</code> <code>space</code> followed by the name of the board you want to open.</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="scripts/app-vendor.js"></script>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

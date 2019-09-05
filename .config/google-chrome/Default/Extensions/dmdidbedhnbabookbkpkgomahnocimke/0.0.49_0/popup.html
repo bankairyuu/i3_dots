@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles/app-vendor.css">
+  <link rel="stylesheet" href="styles/app.css">
+</head>
+
+<body id="page-popup">
+  <div id="create-card-form-container" class="u-clearfix u-hidden logged-in-content">
+    <div id="header">
+      <img src="/images/trello-logo-white.svg" height="24"> </a>
+    </div>
+    <div class="container">
+      <form id="create-card-form">
+        <div class="flex-container" id="selector-container">
+          <div class="select-option">
+            <input id="create-card-board" type="hidden" tabindex="1" />
+          </div>
+
+          <div class="select-option">
+            <input id="create-card-list" type="hidden" tabindex="2" />
+          </div>
+        </div>
+
+        <div id="create-card-fields">
+          <textarea id="create-card-text" class="form-control" placeholder="Card title" rows=1 tabindex="3" autofocus></textarea>
+          <textarea id="create-card-description" class="form-control" placeholder="Description" rows=2 tabindex="4" autofocus></textarea>
+        </div>
+        <div class="flex-container">
+          <div class="u-quiet" id="attach-current-tab-container">
+            <input type="checkbox" id="attach-current-tab"> Attach <span id="attach-current-tab-url"></span>
+          </div>
+          <div class="u-right">
+            <button type="submit" class="button mod-primary" id="confirm-add-card">Add</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="login" class="u-hidden logged-out-content" class="layout-centered-content">
+    <h1>Almost there!</h1>
+
+    <p>
+      <a href="#" id="connect-link" class='button mod-primary mod-no-margin'>Setup Trello account</a>
+    </p>
+
+    <p>Click the big green button to link your Trello account.</p>
+  </div>
+
+  <div class="container">
+    <ul id="created-cards">
+      <!-- <li><a href="https://trello.com/c/St4Y4WR7/222-aaa">[share extension] Can't choose list after changing board in share extension</a></li>
+      <li><a href="https://trello.com/c/St4Y4WR7/222-aaa">Crash looking at our "ultimate tips and tricks" board</a></li>
+      <li><a href="https://trello.com/c/St4Y4WR7/222-aaa">Change keyboard shortcuts to use Control</a></li> -->
+    </ul>
+  </div>
+
+  <script src="scripts/app-vendor.js"></script>
+
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>

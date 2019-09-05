@@ -1,0 +1,17 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "description": "Napirajz már a böngésződben is. Új tab-ra kattintva aktuális vagy random rajzok rombolják a munkakedvet. E!",
+   "icons": {
+      "128": "napirajz-logo.png",
+      "16": "napirajz-logo16.png",
+      "48": "napirajz-logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzQCWtAeGsGr69y1s+vqhdQAuPRJhtKItEyZerNUjbO4itIjXs4bND+pRsVvRzIpaRrtVdRwIEP7VkCf9xzd6fayfakUL474sM2wkCgGnEszvt5v2ykYkPVoR/xoDtIXzuvlUuJrU9K0Wb229dT5jv/VqwdcW9bLPWXc1FQ0Kf4N3y+5AcGtJjVI1+clu1w7qX+v3rg9KTNDp0b9EUKqqVwAK+6CsXNz8/jE5K7mzaUhbnD1K/ZfIL9B/LeJOLHFIv1OCAyK+DPjoitwfxRsQjqU7cwaivhfsZhfApe0ctOgfxlDBFk2kWhmQ6OcGmmZSO2mLYfJU+yRmxu4MtP4qlQIDAQAB",
+   "manifest_version": 2,
+   "name": "Napirajz plugin",
+   "permissions": [ "activeTab", "http://kereso.napirajz.hu/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.3"
+}

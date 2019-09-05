@@ -1,0 +1,45 @@
+A(z) "DXF Output" kiterjesztést nem sikerült betölteni, mivel egy függőség nem teljesül.
+Függőség:
+  típus: executable
+  hely: útvonal
+  szöveg: pstoedit
+  leírás: A Pstoedit programnak telepítve kell lennie a használathoz. Információ a következő webcímen: http://www.pstoedit.net/pstoedit
+
+A(z) "LaTeX" kiterjesztést nem sikerült betölteni, mivel egy függőség nem teljesül.
+Függőség:
+  típus: executable
+  hely: útvonal
+  szöveg: latex
+
+A(z) "LaTeX" kiterjesztést nem sikerült betölteni, mivel egy függőség nem teljesül.
+Függőség:
+  típus: executable
+  hely: útvonal
+  szöveg: dvips
+
+A(z) "LaTeX" kiterjesztést nem sikerült betölteni, mivel egy függőség nem teljesül.
+Függőség:
+  típus: executable
+  hely: útvonal
+  szöveg: pstoedit
+
+A(z) "Win32 Vector Print" kiterjesztést nem sikerült betölteni, mivel a kiterjesztés csak Windows-ra lett tervezve. Ennek oka: helytelen ".inx"-fájl tartozik a kiterjesztéshez. Helytelen ".inx"-fájl például egy hibás Inkscape-telepítésből származhat.
+A(z) "Dia Input" kiterjesztést nem sikerült betölteni, mivel egy függőség nem teljesül.
+Függőség:
+  típus: executable
+  hely: útvonal
+  szöveg: dia
+  leírás: Dia-fájlok importálásához telepítve kell lennie a Dia programnak. Beszerezhető a következő webcímen: http://live.gnome.org/Dia
+
+A(z) "XFIG Input" kiterjesztést nem sikerült betölteni, mivel egy függőség nem teljesül.
+Függőség:
+  típus: executable
+  hely: útvonal
+  szöveg: fig2dev
+
+A(z) "Sketch Input" kiterjesztést nem sikerült betölteni, mivel egy függőség nem teljesül.
+Függőség:
+  típus: executable
+  hely: útvonal
+  szöveg: skconvert
+

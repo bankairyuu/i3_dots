@@ -1,0 +1,3 @@
+[General]
+exclude filters=CMakeTmpQmake,CVS,CMakeFiles,cmake_install.cmake,*.la,*.fq,*~,node_modules,nbproject,*.aux,.bzr,.svn,*.vhd,conftest,*.tmp,_darcs,*.vhdx,.histfile.*,*.jsc,.obj,__pycache__,.npm,.yarn-cache,*.loT,autom4te,.xsession-errors*,CTestTestfile.cmake,*.rcore,.pch,*.qmlc,*.swap,*.elc,CMakeTmp,*.gbff,lost+found,*.ini,.git,*.po,ui_*.h,*.m4,*.pc,*.gmo,*.fastq,.moc,libtool,config.status,*.faa,*.gb,.yarn,*.nvram,litmain.sh,*.pyc,*.vdi,*.sql.gz,*.o,*.class,*.fna,core-dumps,*.map,*.orig,.uic,*.vm*,qrc_*.cpp,CMakeCache.txt,*.csproj,lzo,*.fasta,.hg,*.db,*.omf,*.vmdk,confdefs.h,*.gcode,*.so,confstat,*.qcow2,*.vbox*,po,*.lo,*.moc,Makefile.am,*.pyo,node_packages,*.qrc,*.img,*.rej,vbox.log,moc_*.cpp,*.a,*.init,*.sql,*.part
+exclude filters version=5

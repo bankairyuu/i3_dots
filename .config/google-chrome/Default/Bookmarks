@@ -1,0 +1,124 @@
+{
+   "checksum": "749329469d111be5250f5f3d5df5232a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "12962104235887866",
+            "id": "7",
+            "meta_info": {
+               "last_visited": "13160856493177662",
+               "last_visited_desktop": "13160565613785308"
+            },
+            "name": "",
+            "sync_transaction_version": "10",
+            "type": "url",
+            "url": "https://neptun11.uni-pannon.hu/hallgato/login.aspx"
+         }, {
+            "date_added": "12986914620192000",
+            "id": "8",
+            "meta_info": {
+               "last_visited": "13153915964078356",
+               "last_visited_desktop": "13200609216191331"
+            },
+            "name": "",
+            "sync_transaction_version": "11",
+            "type": "url",
+            "url": "http://ncore.cc/index.php"
+         }, {
+            "date_added": "12990023853568450",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13189041787325217"
+            },
+            "name": "Várólista",
+            "sync_transaction_version": "12",
+            "type": "url",
+            "url": "http://kollegiumok.uni-pannon.hu/index.php?option=com_docman&task=cat_view&gid=19&Itemid=3"
+         }, {
+            "date_added": "12997975310999937",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13180982738150162"
+            },
+            "name": "MikMail",
+            "sync_transaction_version": "13",
+            "type": "url",
+            "url": "https://webmail.mik.uni-pannon.hu/?_task=mail&_mbox=INBOX&_refresh=1"
+         }, {
+            "date_added": "13000483320027635",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13192467297535620"
+            },
+            "name": "Tárgygráf",
+            "sync_transaction_version": "14",
+            "type": "url",
+            "url": "http://pe.targygraf.hu/mernok_informatikus"
+         }, {
+            "date_added": "13014136418887834",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13198516718405731"
+            },
+            "name": "telkönyv",
+            "sync_transaction_version": "15",
+            "type": "url",
+            "url": "http://www.uni-pannon.hu/telkonyv/tel_read.php?action=2"
+         }, {
+            "date_added": "13136142639316752",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13136972158769519"
+            },
+            "name": "Skoda Octavia 1U autójavítási útmutató",
+            "sync_transaction_version": "16",
+            "type": "url",
+            "url": "https://www.youtube.com/playlist?annotation_id=annotation_4097477157&feature=iv&list=PLEYteC63wm1D_UDfDpNGA4Fc1ehIlbPb2&src_vid=5p7TUIwMb2Q"
+         }, {
+            "date_added": "13208041453063409",
+            "id": "14",
+            "name": "GUI.Python",
+            "sync_transaction_version": "17",
+            "type": "url",
+            "url": "https://www.reddit.com/r/Python/comments/anpkle/how_to_make_a_desktop_gui_application_in_python/"
+         } ],
+         "date_added": "13211584664406940",
+         "date_modified": "13208041453063409",
+         "id": "1",
+         "name": "Könyvjelzősáv",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "12979133997016671",
+            "id": "5",
+            "name": "Veszprémjobs",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.veszpremjobs.hu/"
+         }, {
+            "date_added": "12979139056316616",
+            "id": "6",
+            "name": "Premium Wordpress Themes | ThemeFuse",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://themefuse.com/"
+         } ],
+         "date_added": "13211584664406944",
+         "date_modified": "12979139056316616",
+         "id": "2",
+         "name": "További könyvjelzők",
+         "type": "folder"
+      },
+      "sync_transaction_version": "17",
+      "synced": {
+         "children": [  ],
+         "date_added": "13211584664406945",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobilos könyvjelzők",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

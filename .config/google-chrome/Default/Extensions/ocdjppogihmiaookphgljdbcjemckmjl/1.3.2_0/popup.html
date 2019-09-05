@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/popup.css">
+    <!-- <link rel="stylesheet" href="styles/jquery.btnswitch.css"> -->
+    <script src="lib/jquery.js"></script>
+    <!-- <script src="lib/jquery.btnswitch.js"></script> -->
+    <script src="js/popup.js"></script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="/images/logo.png">
+    </header>
+
+    <div id="wrapper">
+        <div id="notification" hidden>
+            <div id="notification-content">
+                <h1>
+                    <span id="notification-title"></span>
+                    <span id="notification-close"></span>
+                </h1>
+                <p id="notification-message"></p>
+            </div>
+            <ul id="notification-close-content">
+                <li id="notification-hide" class="i18n_overlay_notification_closing_button_hide"></li>
+                <li id="notification-optout" class="i18n_overlay_notification_closing_button_optout"></li>
+            </ul>
+        </div>
+        <ul id="menu">
+            <li class="menu-item youtube" role="button">
+                <span id="enabled-yes" class="enabled_for_site">
+                    <strong>YouTube</strong>
+                </span>
+                <div id="youtube-btn-black" class="icon black"></div>
+                <div id="youtube-btn-white" class="icon white"></div>
+
+
+            </li>
+
+            <li class="menu-item facebook" role="button">
+                <span id="enabled-yes" class="enabled_for_site">
+                    <strong>Facebook</strong>
+                </span>
+                <div id="facebook-btn-black" class="icon black"></div>
+                <div id="facebook-btn-white" class="icon white"></div>
+            </li>
+
+            <li class="menu-item chrome" role="button">
+                <span id="enabled-yes" class="enabled_for_site">
+                    <strong>Chrome</strong>
+                </span>
+                <div id="chrome-btn-black" class="icon black"></div>
+                <div id="chrome-btn-white" class="icon white"></div>
+            </li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
